@@ -1,0 +1,23 @@
+name: swipe_models
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tinder_swipecard: ^0.3.0
+  flutter_tindercard: ^0.1.7
+  cupertino_icons: ^1.0.0
+  tcard: ^1.3.3
+  flutter_slidable: ^0.5.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
